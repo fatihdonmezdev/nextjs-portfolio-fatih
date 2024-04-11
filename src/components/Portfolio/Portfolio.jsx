@@ -11,7 +11,7 @@ const items = [
   {
     id: 1,
     title: "Fatih Store",
-    img: "https://private-user-images.githubusercontent.com/72231439/316265727-1e03eda4-46c5-443f-9e72-236afa4c3f86.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI4NjgyMDYsIm5iZiI6MTcxMjg2NzkwNiwicGF0aCI6Ii83MjIzMTQzOS8zMTYyNjU3MjctMWUwM2VkYTQtNDZjNS00NDNmLTllNzItMjM2YWZhNGMzZjg2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDExVDIwMzgyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZkYTY5MDBmYmQzMTI0OTc5MWZjNjIzZTNkNDk4NTAxNjM3ODE0OWFiNWZlZjA5OGEzOTExM2Q2MTJjNGU3ZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.hiNAszDeSxGowfMI9DBSuq-GT3hmEhg_egZT-XF_A1A",
+    img: "https://i.ibb.co/vB7dM1W/fatihstore.jpg",
     desc: "This project is an ecommerce project I made with next.js and Firebase Auth, firestore. This project also has an admin CMS in which you can add new products, edit products, remove products, see orders made by users. ",
     techStack: [
       "Next.js",
