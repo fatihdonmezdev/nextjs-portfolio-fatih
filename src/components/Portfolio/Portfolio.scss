@@ -56,7 +56,7 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
 
           @include mobile {
             object-fit: contain;
@@ -70,6 +70,14 @@
         flex-direction: column;
         gap: 30px;
 
+        ul {
+          list-style-type: disc;
+          padding: 0;
+          margin: 0 50px;
+          li {
+            color: gray;
+          }
+        }
         @include mobile {
           transform: none !important;
           padding: 10px;
@@ -93,8 +101,22 @@
             font-size: 16px;
           }
         }
+        .links {
+          display: flex;
+          gap: 1rem;
 
+          .github {
+            background-color: gray;
+            gap: 5px;
+            font-size: 15px;
+          }
+        }
         button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          font-size: 15px;
           background-color: orange;
           border: none;
           border-radius: 10px;
