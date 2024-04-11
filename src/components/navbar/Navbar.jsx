@@ -1,9 +1,11 @@
-import Sidebar from "../Sidebar/Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <div className="navbar">
+      {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
         <motion.span
@@ -11,24 +13,24 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Fatihdevelops
+          Fatih Develops
         </motion.span>
         <div className="social">
-          <a href="">
+          <a href="#">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="">
+          <a href="#">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="">
+          <a href="#">
             <img src="/youtube.png" alt="" />
           </a>
-          <a href="">
-            <img src="/twitter.png" alt="" />
+          <a href="#">
+            <img src="/dribbble.png" alt="" />
           </a>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
