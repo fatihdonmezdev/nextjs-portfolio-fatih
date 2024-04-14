@@ -48,7 +48,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>
-            FATIH DÖNMEZ
+            FATİH DÖNMEZ
           </motion.h2>
           <motion.h1 variants={textVariants}>
             Web developer and UI designer

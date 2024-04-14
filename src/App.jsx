@@ -8,7 +8,7 @@ import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
-    <div>
+    <>
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -26,7 +26,7 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-    </div>
+    </>
   );
 };
 
