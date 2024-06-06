@@ -2,7 +2,9 @@
 
 .navbar {
   height: 100px;
-
+  position: sticky;
+  top: 0;
+  z-index: 10000;
   .wrapper {
     max-width: 1366px;
     margin: auto;

@@ -11,9 +11,10 @@ const App = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div style={{ position: "relative" }}>
+      <Navbar />
+
       <section id="Homepage">
-        <Navbar />
         <Hero />
       </section>
       <section id="Services">
@@ -29,7 +30,7 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-    </>
+    </div>
   );
 };
 

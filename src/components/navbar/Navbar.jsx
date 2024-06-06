@@ -8,7 +8,7 @@ const Navbar = () => {
   const languageChangeHandler = (e) => {
     if (e.target.innerText === "Turkish") {
       i18n.changeLanguage("tr");
-    } else {
+    } else if (e.target.innerText === "English") {
       i18n.changeLanguage("en");
     }
   };
@@ -25,7 +25,7 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <button onClick={languageChangeHandler}>Turkish</button>
-          <button>English</button>
+          <button onClick={languageChangeHandler}>English</button>
           <a href="https://www.linkedin.com/in/fatihdonmezz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
