@@ -5,12 +5,10 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
-  const languageChangeHandler = (e) => {
-    if (e.target.innerText === "Turkish") {
-      i18n.changeLanguage("tr");
-    } else if (e.target.innerText === "English") {
-      i18n.changeLanguage("en");
-    }
+  const languageChangeHandler = (lang) => {
+    return () => {
+      i18n.changeLanguage(lang);
+    };
   };
   return (
     <div className="navbar">
@@ -24,8 +22,26 @@ const Navbar = () => {
           Fatih Develops
         </motion.span>
         <div className="social">
-          <button onClick={languageChangeHandler}>Turkish</button>
-          <button onClick={languageChangeHandler}>English</button>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+            onClick={languageChangeHandler("tr")}
+          >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1200px-Flag_of_Turkey.svg.png?20210808085121" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+            onClick={languageChangeHandler("en")}
+          >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" />
+          </div>
           <a href="https://www.linkedin.com/in/fatihdonmezz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
