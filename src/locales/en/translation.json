@@ -1,0 +1,96 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Web developer and UI designer",
+    "works": "See the latest works",
+    "contact": "Contact me"
+  },
+  "parallax": {
+    "services": "What I do",
+    "works": "What I did"
+  },
+  "services": {
+    "heading": "I focus on",
+    "heading2": "helping your brand grow.",
+    "title1-1": "Unique",
+    "title1-2": "Ideas",
+    "title2-1": "For Your",
+    "title2-2": "Business.",
+    "button": "WHAT I DO",
+    "card1-title": "Frontend Development",
+    "card1-text": "I can create a beautiful and responsive website for you. I can use React, Angular, or Vue.js. I can also use plain HTML, CSS, and JavaScript. I can also use Bootstrap, Tailwind CSS,MaterialUI,antd.",
+    "card2-title": "Backend Development",
+    "card2-text": "I can create a backend for your website. I can use Node.js, Express.js,Typescript. I can also use MongoDB, MySQL, or PostgreSQL. I can also use Firebase & REST API or GraphQL.",
+    "card3-title": "Cloud & Other Technologies",
+    "card3-text": "I can use Docker, Git/Github, Github actions for continous integration and delivery. I can use AWS RDS for database management and AWS EC2 instances with AWS EBS to deploy the backend.",
+    "card4-title": "Personality",
+    "card4-text": "I am a hardworking and dedicated person. I am always ready to learn new things. I am a team player and I can work in a team. I've have experience with projects and I can work under pressure. I have worked with other developers in many projects and I've overcome the challenges.",
+    "go": "Go"
+  },
+  "works": {
+    "heading": "Featured Works",
+    "demo": "See Demo",
+    "source": "See Github",
+    "techStack": "Tech Stack",
+    "work1": {
+      "id": 1,
+      "title": "Fatih Store",
+      "img": "https://i.ibb.co/vB7dM1W/fatihstore.jpg",
+      "desc": "This project is an ecommerce project I made with next.js and Firebase Auth, firestore. This project also has an admin CMS in which you can add new products, edit products, remove products, see orders made by users. ",
+      "techStack": ["Next.js", "Firebase", "Tailwind CSS", "Redux Toolkit"],
+      "link": "https://ecommerce-fatihstore.vercel.app/",
+      "github": "https://github.com/fatihdonmezdev/Ecommerce-Fatihstore"
+    },
+    "work2": {
+      "id": 2,
+      "title": "Uzman Sap",
+      "img": "https://i.ibb.co/MNTrzNV/uzmansap.jpg",
+      "desc": "This project is a local concrete screed company's website. I made this project with Next.js and Tailwind CSS. The project is 2nd on google results when you search for 'hatay şap' which means concrete screed in Hatay in Turkish. The website aims locals that live in the city.",
+      "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Google Maps",
+        "Google ADS",
+        "Whatsapp Integration"
+      ],
+      "link": "https://www.uzmansap.com/",
+      "github": "https://www.uzmansap.com/"
+    },
+    "work3": {
+      "id": 3,
+      "title": "Erbeyler Tesisat",
+      "img": "https://i.ibb.co/FBbVY9b/erbeyler.jpg",
+      "desc": "This project is a local plumber's website. I made this project with React.js and Tailwind CSS. The website aims locals that live in the city. I've also integrated Google maps and Google ADS to the website.",
+      "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Google ADS",
+        "Whatsapp Integration"
+      ],
+      "link": "https://www.bodrumerbeylertesisat.com/",
+      "github": "https://www.bodrumerbeylertesisat.com/"
+    },
+    "work4": {
+      "id": 4,
+      "title": "React Meals",
+      "img": "https://i.ibb.co/ZKY0TJh/reactmeals.jpg",
+      "desc": "This project is a Food Order app I made at the beginning of my React journey. I made this project with React.js and Tailwind CSS. The website is simple and SPA, you can add meals to your cart and order them. The project is connected to Firebase, I can see orders made by users. I can add meals.",
+      "techStack": ["React.js", "Firebase", "Fetch API", "React Forms"],
+      "link": "https://fanciful-klepon-9e9de1.netlify.app/",
+      "github": "https://github.com/fatihdonmezdev/Food-Order-App?tab=readme-ov-file"
+    }
+  },
+  "contact": {
+    "workTogether": "Let's work together",
+    "formPlaceHolders": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    }
+  }
+}

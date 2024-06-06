@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ServicesCard = ({ title, description }) => {
+const ServicesCard = ({ title, description, go }) => {
   return (
     <motion.div
       className="box"
@@ -12,7 +12,7 @@ const ServicesCard = ({ title, description }) => {
     >
       <h2>{title}</h2>
       <p>{description}</p>
-      <button>Go</button>
+      <button>{go}</button>
     </motion.div>
   );
 };

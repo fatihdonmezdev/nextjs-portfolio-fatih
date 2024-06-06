@@ -1,0 +1,95 @@
+{
+  "sidebar": {
+    "home": "Anasayfa",
+    "services": "Hizmetler",
+    "portfolio": "Portföy",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Web geliştiricisi ve UI tasarımcısı",
+    "works": "Çalışmalarımı görmek için tıklayın",
+    "contact": "İletişime geçin"
+  },
+  "parallax": {
+    "services": "Neler Yapıyorum",
+    "works": "Neler Yaptım"
+  },
+  "services": {
+    "heading": "Markanızı büyütmenize ve ",
+    "heading2": "ilerlemenize yardım etmeye odaklanıyorum.",
+    "title1-1": "Benzersiz",
+    "title1-2": "Fikirler",
+    "title2-1": "İşletmeniz için",
+    "title2-2": "Fikirler.",
+    "button": "NE YAPARIM",
+    "card1-title": "Frontend Geliştirme",
+    "card1-text": "Size güzel ve duyarlı bir web sitesi oluşturabilirim. React, Angular veya Vue.js kullanabilirim. Ayrıca düz HTML, CSS ve JavaScript kullanabilirim. Bootstrap, Tailwind CSS, MaterialUI, antd kullanabilirim.",
+    "card2-title": "Backend Geliştirme",
+    "card2-text": "Web siteniz için bir backend oluşturabilirim. Node.js, Express.js, Typescript kullanabilirim. MongoDB, MySQL veya PostgreSQL kullanabilirim. Firebase ve REST API veya GraphQL kullanabilirim.",
+    "card3-title": "Bulut ve Diğer Teknolojiler",
+    "card3-text": "Docker, Git/Github, sürekli entegrasyon ve dağıtım için Github eylemleri kullanabilirim. Veritabanı yönetimi için AWS RDS ve backend'i dağıtmak için AWS EC2 örnekleri ve AWS EBS kullanabilirim.",
+    "card4-title": "Kişilik",
+    "card4-text": "Ben çalışkan ve özverili biriyim. Her zaman yeni şeyler öğrenmeye hazırım. Bir takım oyuncusuyum ve bir ekipte çalışabilirim. Projelerle deneyimim var ve baskı altında çalışabilirim. Birçok projede diğer geliştiricilerle çalıştım ve zorlukların üstesinden geldim.",
+    "go": "Git"
+  },
+  "works": {
+    "heading": "Yaptığım Projeler",
+    "demo": "Demoyu Gör",
+    "source": "Github'ı Görüntüle",
+    "work1": {
+      "id": 1,
+      "title": "Fatih Store",
+      "img": "https://i.ibb.co/vB7dM1W/fatihstore.jpg",
+      "desc": "Bu proje, next.js ve Firebase Auth, firestore ile yaptığım bir e-ticaret projesidir. Bu projenin ayrıca kullanıcılar tarafından yapılan siparişleri görebileceğiniz, yeni ürünler ekleyebileceğiniz, ürünleri düzenleyebileceğiniz, ürünleri kaldırabileceğiniz bir yönetici CMS'si vardır.",
+      "techStack": ["Next.js", "Firebase", "Tailwind CSS", "Redux Toolkit"],
+      "link": "https://ecommerce-fatihstore.vercel.app/",
+      "github": "https://github.com/fatihdonmezdev/Ecommerce-Fatihstore"
+    },
+    "work2": {
+      "id": 2,
+      "title": "Uzman Sap",
+      "img": "https://i.ibb.co/MNTrzNV/uzmansap.jpg",
+      "desc": "Bu proje, yerel bir beton şap şirketinin web sitesidir. Bu projeyi Next.js ve Tailwind CSS ile yaptım. Proje, 'hatay şap' kelimesini arattığınızda google sonuçlarında 2. sırada yer alır. Web sitesi, şehirde yaşayan yerel halkı hedeflemektedir.",
+      "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Google Maps",
+        "Google ADS",
+        "Whatsapp Entegrasyonu"
+      ],
+      "link": "https://www.uzmansap.com/",
+      "github": "https://www.uzmansap.com/"
+    },
+    "work3": {
+      "id": 3,
+      "title": "Erbeyler Tesisat",
+      "img": "https://i.ibb.co/FBbVY9b/erbeyler.jpg",
+      "desc": "Bu proje, yerel bir tesisatçının web sitesidir. Bu projeyi React.js ve Tailwind CSS ile yaptım. Web sitesi, şehirde yaşayan yerel halkı hedeflemektedir. Ayrıca web sitesine Google haritalar ve Google ADS entegre ettim.",
+      "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Google ADS",
+        "Whatsapp Entegrasyonu"
+      ],
+      "link": "https://www.bodrumerbeylertesisat.com/",
+      "github": "https://www.bodrumerbeylertesisat.com/"
+    },
+    "work4": {
+      "id": 4,
+      "title": "React Meals",
+      "img": "https://i.ibb.co/ZKY0TJh/reactmeals.jpg",
+      "desc": "Bu proje, React yolculuğumun başında yaptığım bir Yemek Siparişi uygulamasıdır. Bu projeyi React.js ve Tailwind CSS ile yaptım. Web sitesi basit ve SPA'dır, yemekleri sepetinize ekleyebilir ve sipariş verebilirsiniz. Proje Firebase ile bağlıdır, kullanıcılar tarafından yapılan siparişleri görebilirim. Yemekler ekleyebilirim.",
+      "techStack": ["React.js", "Firebase", "Fetch API", "React Forms"],
+      "link": "https://fanciful-klepon-9e9de1.netlify.app/",
+      "github": "https://github.com/fatihdonmezdev"
+    }
+  },
+  "contact": {
+    "workTogether": "Birlikte çalışalım",
+    "formPlaceHolders": {
+      "name": "Ad",
+      "email": "E-posta",
+      "message": "Mesaj"
+    }
+  }
+}

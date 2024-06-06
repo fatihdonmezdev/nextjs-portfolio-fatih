@@ -5,8 +5,11 @@ import Parallax from "./components/Parallax/Parallax";
 import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section id="Homepage">

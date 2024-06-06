@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./Hero.scss";
 import { motion } from "framer-motion";
 
@@ -38,6 +39,7 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <div className="hero">
       <div className="wrapper">
@@ -47,25 +49,14 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>
-            FATİH DÖNMEZ
-          </motion.h2>
-          <motion.h1 variants={textVariants}>
-            Web developer and UI designer
-          </motion.h1>
-          <motion.div
-            variants={textVariants}
-            className="buttons"
-          >
-            <motion.button
-              variants={textVariants}
-            >
-              See the Latest Works
+          <motion.h2 variants={textVariants}>FATİH DÖNMEZ</motion.h2>
+          <motion.h1 variants={textVariants}>{t("hero.title")} </motion.h1>
+          <motion.div variants={textVariants} className="buttons">
+            <motion.button variants={textVariants}>
+              {t("hero.works")}
             </motion.button>
-            <motion.button
-              variants={textVariants}
-            >
-              Contact Me
+            <motion.button variants={textVariants}>
+              {t("hero.contact")}
             </motion.button>
           </motion.div>
           <motion.img

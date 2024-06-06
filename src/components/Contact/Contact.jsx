@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import "./Contact.scss";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const variants = {
   initial: {
@@ -18,6 +19,7 @@ const variants = {
 };
 
 const Contact = () => {
+  const { t } = useTranslation();
   const ref = useRef();
   const formRef = useRef();
   const [error, setError] = useState(false);
@@ -40,17 +42,9 @@ const Contact = () => {
       initial="initial"
       whileInView="animate"
     >
-      <motion.div
-        className="textContainer"
-        variants={variants}
-      >
-        <motion.h1 variants={variants}>
-          Let’s work together
-        </motion.h1>
-        <motion.div
-          className="item"
-          variants={variants}
-        >
+      <motion.div className="textContainer" variants={variants}>
+        <motion.h1 variants={variants}>{t("contact.workTogether")}</motion.h1>
+        <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>fdev@fatihdonmezdev.com</span>
           <br />
@@ -58,15 +52,10 @@ const Contact = () => {
           <span>fatihd1512@gmail.com</span>
         </motion.div>
 
-        <motion.div
-          className="item"
-          variants={variants}
-        >
+        <motion.div className="item" variants={variants}>
           <h2>Linkedin</h2>
           <a href="https://www.linkedin.com/in/fatihdonmezz/">
-            <span className="linkedinBtn">
-              linkedin.com/in/fatihdonmezz/
-            </span>
+            <span className="linkedinBtn">linkedin.com/in/fatihdonmezz/</span>
           </a>
         </motion.div>
       </motion.div>
@@ -77,18 +66,12 @@ const Contact = () => {
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
         >
-          <svg
-            width="450px"
-            height="450px"
-            viewBox="0 0 32.666 32.666"
-          >
+          <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
             <motion.path
               strokeWidth={0.2}
               fill="none"
               initial={{ pathLength: 0 }}
-              animate={
-                isInView && { pathLength: 1 }
-              }
+              animate={isInView && { pathLength: 1 }}
               transition={{ duration: 3 }}
               d="M28.189,16.504h-1.666c0-5.437-4.422-9.858-9.856-9.858l-0.001-1.664C23.021,4.979,28.189,10.149,28.189,16.504z
             M16.666,7.856L16.665,9.52c3.853,0,6.983,3.133,6.981,6.983l1.666-0.001C25.312,11.735,21.436,7.856,16.666,7.856z M16.333,0
@@ -116,18 +99,18 @@ const Contact = () => {
           <input
             type="text"
             required
-            placeholder="Name"
+            placeholder={t("contact.formPlaceHolders.name")}
             name="name"
           />
           <input
             type="email"
             required
-            placeholder="Email"
+            placeholder={t("contact.formPlaceHolders.email")}
             name="email"
           />
           <textarea
             rows={8}
-            placeholder="Message"
+            placeholder={t("contact.formPlaceHolders.message")}
             name="message"
           />
           <button>Submit</button>

@@ -1,8 +1,17 @@
+import { useTranslation } from "react-i18next";
 import Sidebar from "../Sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
+  const languageChangeHandler = (e) => {
+    if (e.target.innerText === "Turkish") {
+      i18n.changeLanguage("tr");
+    } else {
+      i18n.changeLanguage("en");
+    }
+  };
   return (
     <div className="navbar">
       <Sidebar />
@@ -15,6 +24,8 @@ const Navbar = () => {
           Fatih Develops
         </motion.span>
         <div className="social">
+          <button onClick={languageChangeHandler}>Turkish</button>
+          <button>English</button>
           <a href="https://www.linkedin.com/in/fatihdonmezz/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const variants = {
   open: {
@@ -25,18 +26,17 @@ const itemVariants = {
 };
 
 const Links = () => {
+  const { t } = useTranslation();
+
   const items = [
-    "Homepage",
-    "Services",
-    "Portfolio",
-    "Contact",
+    t("sidebar.home"),
+    t("sidebar.services"),
+    t("sidebar.portfolio"),
+    t("sidebar.contact"),
   ];
 
   return (
-    <motion.div
-      className="links"
-      variants={variants}
-    >
+    <motion.div className="links" variants={variants}>
       {items.map((item) => (
         <motion.a
           href={`#${item}`}
